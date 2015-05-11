@@ -18,6 +18,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <video width="auto" height="auto" controls id="html5_video_test">
     <source src="https://vidveo-client.s3.amazonaws.com/broadridge/clients/morgan_stanley/samples/broadridge_morgan_video-in-video_sample2_20150310.mp4"
     type="video/mp4">
-  <
+  <button onclick="setCurTime()" type="button">5 Seconds</button><br>
+  <button onclick="setCurTime()" type="button">30 Seconds</button><br> 
+  <script>
+var vid = document.getElementById("html5_video_test");
+
+function setCurTime(time) { 
+    vid.currentTime=5;
+} 
+</script> 
 
 </html>
