@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if It IE 9]>
+<script src="dist/html5shiv.js"></script>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+    <h1>Schedule an appointment</h1>
+  </div>
+  <div class="box">
+    <div class="column1">
+      <video controls id="vid" src="https://vidveo-client.s3.amazonaws.com/broadridge/clients/morgan_stanley/samples/broadridge_morgan_video-in-video_sample2_20150310.mp4"></video>
+    </div>
+    <div class="column2">
+      <ul>
+        <li><a href="#" onclick="setCurTime(0)" type="button">Title</a></li>
+        <li><a href="#" onclick="setCurTime(5)" type="button">Company Information</a></li>
+        <li><a href="#" onclick="setCurTime()" type="button">Location</a></li>
+        <li><a href="#" onclick="setCurTime(28)" type="button">Experience</a></li>
+        <li><a href="#" onclick="setCurTime(34)" type="button">Licenses</a></li>
+        <li><a href="#" onclick="setCurTime(39)" type="button">Approach</a></li>
+        <li><a href="#" onclick="setCurTime()" type="button">Products / Services</a></li>
+        <li><a href="#" onclick="setCurTime(68)" type="button">Disclaimer</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+   <script>
+      var vid = document.getElementById("vid");
+
+      function setCurTime(time) { 
+          vid.currentTime=time;
+          //dataLayer.push({'event': 'button '(time)'-click'});
+      } 
+   </script> 
+</body>
+</html>
