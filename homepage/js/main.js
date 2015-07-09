@@ -96,8 +96,17 @@ $(document).ready(function() {
         slides: [
             { src: 'img/slider/01.jpg' },
             { src: 'img/slider/02.jpg' },
-            { src: 'img/slider/03.jpg' },
-			{ src: 'img/slider/04.jpg' }
+            { src: 'img/slider/03.jpg',
+            video: {
+                src: [
+                    'img/slider/03.mp4'
+                ],
+                loop: false,
+                mute: true
+            } 
+        },
+			{ src: 'img/slider/04.jpg' },
+            { src: 'img/slider/canon.jpg' }
         ],
     overlay: true
 });
