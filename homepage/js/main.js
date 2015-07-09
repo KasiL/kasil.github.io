@@ -99,7 +99,7 @@ $(document).ready(function() {
             { src: 'img/slider/03.jpg',
             video: {
                 src: [
-                    'img/slider/03.mp4'
+                    'img/slider/vid03.mp4'
                 ],
                 loop: false,
                 mute: true
