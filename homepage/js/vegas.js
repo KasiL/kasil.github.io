@@ -13,7 +13,7 @@
 
     var defaults = {
         slide:              0,
-        delay:              5000,
+        delay:              3500,
         preload:            false,
         preloadImage:       false,
         preloadVideo:       false,
@@ -26,7 +26,7 @@
         align:              'center',
         valign:             'center',
         transition:         'fade',
-        transitionDuration: 1000,
+        transitionDuration: 700,
         transitionRegister: [],
         animation:          null,
         animationDuration:  'auto',
